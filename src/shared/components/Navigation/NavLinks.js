@@ -8,13 +8,14 @@ export default function NavLinks() {
         <NavLink to="/" exact>All Users</NavLink>
         </li>
         <li>
-        <NavLink to="/u1/places" exact>My Places</NavLink>
+        <NavLink to="/u1/places">My Places</NavLink>
         </li>
         <li>
-        <NavLink to="/places/new" exact>Add Place</NavLink>
+        <NavLink to="/places/new">Add Place</NavLink>
         </li>
         <li>
-        <NavLink to="/auth" exact>Authenticate</NavLink>
+          
+        <NavLink to="/auth">Authenticate</NavLink>
         </li>
     </ul>
   )
