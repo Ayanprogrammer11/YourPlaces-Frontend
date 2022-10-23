@@ -7,7 +7,7 @@ const UsersList = (props) => {
     return (
      <div className="center">
         <h2>No Users Found!</h2>
-        <button className='btn'>hello</button>
+        {/* <button className='btn'>hello</button> */}
      </div>
     )
    }
