@@ -10,9 +10,9 @@ const DUMMY_PLACES = [
         description: "An Amazing Mall",
         address: "100 N. Block Street, Lahore",
         creator: "u1",
-        coordinates: {
+        location: {
             lat: 27.545445,
-            lon: 34.434334
+            lng: 34.434334
         }
     },
     {
@@ -22,9 +22,9 @@ const DUMMY_PLACES = [
         description: "An bad Mall",
         address: "d Block Street, Lahore",
         creator: "u2",
-        coordinates: {
+        location: {
             lat: 27.545445,
-            lon: 34.434334
+            lng: 34.434334
         }
     }
 ]
