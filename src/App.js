@@ -40,15 +40,14 @@ const App = () => {
       <Routes>
         <Route path="/" exact element={<Users />} />
         <Route path="/:userId/places" exact element={<UserPlaces />} />
-        <Route path="/auth" element={<Auth />} />
+        <Route path="/auth" exact element={<Auth />} />
       </Routes>
     );
-  }
+ }
 
   return (
     <AuthContext.Provider
-      value={{ isLoggedIn: isLoggedIn, login: login, logout: logout }}
-    >
+      value={{ isLoggedIn: isLoggedIn, login: login, logout: logout }}>
       <BrowserRouter>
         <MainNavigation />
         <main>{routes}</main>
